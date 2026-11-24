@@ -42,7 +42,7 @@ reproduces the survey from the ENA and the remaining scripts run from what it re
 
 ## Map of scripts to supplementary sections
 
-### Supplementary 1 — Study survey, selection and sequence reprocessing
+### Supplementary A — Study survey, selection and sequence reprocessing
 
 | ID | Script | Step |
 | --- | --- | --- |
@@ -63,14 +63,14 @@ reproduces the survey from the ENA and the remaining scripts run from what it re
 | S1.15 | `lineage.py` | Genus lineage table |
 | S1.16 | `fetch_refs.py` | Publication linked to each deposit |
 
-### Supplementary 2 — Effect sizes and meta-analysis
+### Supplementary B — Effect sizes and meta-analysis
 
 | ID | Script | Step |
 | --- | --- | --- |
 | S2.1 | `effect_sizes.py` | Per-study effect sizes: genus selection, partial correlation, Fisher z |
 | S2.2 | `meta_pairs.py` | Random-effects pooling, both intervals, FDR and the null model |
 
-### Supplementary 3 — Stability and nature of the associations
+### Supplementary C — Stability and nature of the associations
 
 | ID | Script | Step |
 | --- | --- | --- |
@@ -93,7 +93,7 @@ reproduces the survey from the ENA and the remaining scripts run from what it re
 | S3.17 | `inoculant_bias.py` | Representation of commercial inoculant genera |
 | S3.18 | `tau2_pm_check.py` | Tau-squared re-estimated by Paule-Mandel with Hartung-Knapp |
 
-### Supplementary 4 — Recurrent combinations and feasibility
+### Supplementary D — Recurrent combinations and feasibility
 
 | ID | Script | Step |
 | --- | --- | --- |
@@ -111,7 +111,7 @@ reproduces the survey from the ENA and the remaining scripts run from what it re
 | S4.12 | `rank_syncoms.py` | Composite ranking |
 | S4.13 | `rank_aptos.py` | Ranking corrected for sequencing effort |
 
-### Supplementary 5 — Functional traits and strain availability
+### Supplementary E — Functional traits and strain availability
 
 | ID | Script | Step |
 | --- | --- | --- |
@@ -120,7 +120,7 @@ reproduces the survey from the ENA and the remaining scripts run from what it re
 | S5.3 | `bgc_traits.py` | Secondary-metabolite gene clusters and NIS siderophores |
 | S5.4 | `isolates.py` | Strain availability and isolation source per genus |
 
-### Supplementary 6 — Software, figures and tables
+### Supplementary F — Software, figures and tables
 
 | ID | Script | Step |
 | --- | --- | --- |
